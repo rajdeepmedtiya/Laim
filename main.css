@@ -88,22 +88,22 @@ p{
 .banner{
   background-size: cover;
   background-position: center;
-  background-image: url('media/main-banner.jpg');
+  background-image: url('Media/main-banner.jpg');
 }
 .about-us{
   background-size: cover;
   background-position: center;
-  background-image: url('media/about.jpg');
+  background-image: url('Media/about.jpg');
 }
 .login{
   background-size: cover;
   background-position: center;
-  background-image: url('media/login.jpg');
+  background-image: url('Media/login.jpg');
 }
 .contact-us{
   background-size: cover;
   background-position: center;
-  background-image: url('media/contact-us.jpg');
+  background-image: url('Media/contact-us.jpg');
 }
 span{
   background-color: white !important;
