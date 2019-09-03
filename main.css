@@ -65,6 +65,13 @@ body{
   font-size: 1.3em;
   text-transform: capitalize;
 }
+.login-para{
+  color: white;
+  font-weight: 300;
+  text-align: justify;
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
 p{
   color: white;
   font-weight: 300;
