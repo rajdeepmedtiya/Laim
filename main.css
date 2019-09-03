@@ -40,9 +40,10 @@ body{
 }
 .login-heading{
   font-size: 3.5em;
-  text-align: center;
+  text-align: left;
   letter-spacing: 2.5px;
   margin-top: -50px;
+  text-transform: uppercase;
 }
 .footer-heading{
   font-size: 3.5em;
