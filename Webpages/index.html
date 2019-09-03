@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Laim</title>
+
+    <!-- Main CSS Link -->
+    <link rel="stylesheet" href="../main.css">
+
+    <!-- Fullpage CSS Link -->
+    <link rel="stylesheet" href="../fullpage.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../media/favicon.png">
+
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></link>
+
+  </head>
+  <body id="hidden">
+    <div id="fullpage">
+
+      <!-- Banner Section -->
+      <div class="section banner">
+          <center><a href="#banner" class="navbar-brand"><img src="../media/logo.png"></a></center>
+          <p class="headings">Welcome to Laim</p>
+          <p>Where there is business, there is communication.</p><br>
+          <center><button type="submit" class="btn btn-primary"><a href="#login" style="color: white;text-decoration: none;">Get Started</a></button></center>
+      </div>
+      <!-- End Banner Section -->
+
+      <!-- About Us Section -->
+      <div class="section about-us">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <p class="headings">What Is Laim?</p>
+            </div>
+            <div class="col-sm-8">
+              <p class="about-us-para">Laim, is the perfect partner for your business e-mails, from business templates to sending multiple business e-mails to recipients in one click, we've got you covered.</p>
+              <button type="submit" class="btn btn-primary"><a href="#login" style="color: white;text-decoration: none;">Get Started</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About Us Section -->
+
+      <!-- Login Section -->
+      <div class="section login">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <p class="login-heading">Get Started</p>
+            </div>
+            <div class="col-sm-8" style="margin-top: -20px;">
+              <center>
+                <button type="submit" class="btn btn-primary"><a href="#login" style="color: white;text-decoration: none;letter-spacing: 2.5px;">Register</a></button>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="submit" class="btn btn-secondary"><a href="#login" style="color: white;text-decoration: none;letter-spacing: 2.5px;">Login</a></button>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Login Section -->
+
+      <!-- Footer Section -->
+      <div class="section contact-us">
+        <div class="container text-center">
+          <div class="col-sm-12">
+            <center><p class="footer-heading">Follow Us @</p></center>
+          </div>
+            <center>
+              <a href="https://www.instagram.com/laim"><img src="../media/insta.png" width="64" height="64"></a>
+              <a href="https://www.facebook.com/laim"><img src="../media/fb.png" width="64" height="64"></a>
+              <a href="https://www.twitter.com/laim"><img src="../media/tweet.png" width="64" height="64"></a>
+              <a href="mailto:support@laim.epizy.com"><img src="../media/gmail.png" width="64" height="64"></a>
+              <br><br>
+              <p>Awadhpuri, Jhotwara,<br> Jaipur, Rajasthan. - 302012<br></p>
+              <p>+91-9509295949</p><br><br>
+              <p>© Copyright 2019 - Laim</p>
+            </center>
+          </div>
+      </div>
+    </div>
+    <!-- End Footer Section -->
+
+    <!-- Internal Scripts and Libraries -->
+    <script src="../js/fullpage.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+      new fullpage('#fullpage', {
+        autoScrolling: true,
+        navigation: true,
+        anchors: ['banner', 'about-us', 'login', 'contact-us'],
+        navigationTooltips: ['Home', 'What is Laim?', 'Login/SignUp', 'Contact Us']
+      });
+      $(document).ready(function(){
+        $("#hidden").fadeIn(3000);
+      });
+    </script>
+    <!-- End Scripts -->
+  </body>
+</html>
+
+<!--
+    AUTHOR : RAJDEEP SINGH MEDTIYA
+    DATED : 03-09-2019
+    VERSION : 1.0.0
+    PROJECT : LAIM WEBSITE STRUCTURE
+-->

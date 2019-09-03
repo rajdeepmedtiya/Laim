@@ -1,0 +1,110 @@
+/*
+  AUTHOR: RAJDEEP SINGH MEDTIYA
+  DATED: 03-09-2019
+  VERSION: 1.0.0
+  PROJECT: LAIM WEBSITE STYLING SHEET
+*/
+*{
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  overflow: hidden;
+}
+.navbar-brand{
+  position: absolute;
+  margin-top: -220px;
+  margin-left: -195px;
+}
+.headings{
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  font-size: 3.5em;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+.headings:nth-child(1){
+  color: white;
+  font-weight: 300;
+  text-align: left;
+  font-size: 3.5em;
+  letter-spacing: 2.5px;
+  margin-top: -25px;
+  text-transform: uppercase;
+}
+.login-heading{
+  font-size: 3.5em;
+  text-align: center;
+  letter-spacing: 2.5px;
+  margin-top: -50px;
+}
+.footer-heading{
+  font-size: 3.5em;
+  text-align: center;
+  letter-spacing: 2.5px;
+}
+.social-icons{
+  margin-left: 100px;
+  margin-top: -15px;
+  letter-spacing: 15px;
+}
+.footer-content{
+  text-align: left;
+  letter-spacing: 0.5px;
+}
+.about-us-para{
+  color: white;
+  font-weight: 300;
+  text-align: justify;
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
+p{
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
+.banner .btn-primary, .about-us .btn-primary, .login .btn-primary, .login .btn-secondary{
+  border-radius: 20px;
+  background-color: transparent;
+  border-color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.3s background-color ease-in-out;
+  align-items: center;
+}
+.banner .btn-primary:hover, .about-us .btn-primary:hover, .login .btn-primary:hover, .login .btn-secondary:hover{
+  background-color: #0ddf83;
+  border-color: #0ddf83;
+}
+.banner{
+  background-size: cover;
+  background-position: center;
+  background-image: url('media/main-banner.jpg');
+}
+.about-us{
+  background-size: cover;
+  background-position: center;
+  background-image: url('media/about.jpg');
+}
+.login{
+  background-size: cover;
+  background-position: center;
+  background-image: url('media/login.jpg');
+}
+.contact-us{
+  background-size: cover;
+  background-position: center;
+  background-image: url('media/contact-us.jpg');
+}
+span{
+  background-color: white !important;
+}
