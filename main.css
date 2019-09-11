@@ -87,7 +87,7 @@ p{
   border-color: white;
   text-transform: uppercase;
   letter-spacing: 2px;
-  transition: 0.3s background-color ease-in-out;
+  transition: 0.15s background-color ease-in-out;
   align-items: center;
 }
 .banner .btn-primary:hover, .about-us .btn-primary:hover, .login .btn-primary:hover, .login .btn-secondary:hover{
@@ -97,7 +97,7 @@ p{
 .banner{
   background-size: cover;
   background-position: center;
-  background-image: url('https://images.pexels.com/photos/2646099/pexels-photo-2646099.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url('https://images.pexels.com/photos/2378810/pexels-photo-2378810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 .about-us{
   background-size: cover;
