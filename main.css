@@ -17,7 +17,8 @@ body{
   overflow: hidden;
 }
 .navbar-brand{
-  position: absolute;
+  z-index: 1;
+  position: fixed;
   margin-top: -220px;
   margin-left: -195px;
 }
@@ -96,7 +97,7 @@ p{
 .banner{
   background-size: cover;
   background-position: center;
-  background-image: url('Media/main-banner.jpg');
+  background-image: url('https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg');
 }
 .about-us{
   background-size: cover;
