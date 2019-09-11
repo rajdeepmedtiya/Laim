@@ -102,7 +102,7 @@ p{
 .about-us{
   background-size: cover;
   background-position: center;
-  background-image: url('https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg');
+  background-image: linear-gradient(#AB5610,#35FE56);
 }
 .login{
   background-size: cover;
