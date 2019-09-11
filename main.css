@@ -16,13 +16,16 @@ body{
   display: none;
   overflow: hidden;
 }
-.navbar-brand{
-  z-index: 1;
+#nav-logo{
+  width: 100%;
+  height: 75px;
+  top: 20px;
+  right: -40px;
+  z-index: 999;
   position: fixed;
-  margin-top: -220px;
-  margin-left: -195px;
+  background-color: transparent;
 }
-.headings{
+.banner-heading{
   color: white;
   font-weight: 300;
   text-align: center;
@@ -39,13 +42,22 @@ body{
   margin-top: -25px;
   text-transform: uppercase;
 }
+.headings:nth-child(2){
+  color: white;
+  font-weight: 300;
+  text-align: left;
+  font-size: 3.5em;
+  letter-spacing: 2.5px;
+  margin-top: -25px;
+  text-transform: uppercase;
+}/*
 .login-heading{
   font-size: 3.5em;
   text-align: left;
   letter-spacing: 2.5px;
   margin-top: -50px;
   text-transform: uppercase;
-}
+}*/
 .footer-heading{
   font-size: 3.5em;
   text-align: center;
