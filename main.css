@@ -102,17 +102,17 @@ p{
 .about-us{
   background-size: cover;
   background-position: center;
-  background-image: url('Media/about.jpg');
+  background-image: url('https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg');
 }
 .login{
   background-size: cover;
   background-position: center;
-  background-image: url('Media/login.jpg');
+  background-image: url('https://images.pexels.com/photos/698808/pexels-photo-698808.jpeg');
 }
 .contact-us{
   background-size: cover;
   background-position: center;
-  background-image: url('Media/contact-us.jpg');
+  background-image: url('https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg');
 }
 span{
   background-color: white !important;
