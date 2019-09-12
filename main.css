@@ -1,7 +1,7 @@
 /*
   AUTHOR: RAJDEEP SINGH MEDTIYA
   DATED: 03-09-2019
-  VERSION: 1.0.0
+  VERSION: 1.1.0
   PROJECT: LAIM WEBSITE STYLING SHEET
 */
 *{
@@ -18,8 +18,8 @@ body{
 }
 #nav-logo{
   width: 100%;
-  height: 75px;
-  top: -18px;
+  height: 70px;
+  top: -21.5px;
   z-index: 999;
   position: fixed;
   background-color: black;
